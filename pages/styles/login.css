@@ -1,0 +1,173 @@
+/*
+* login: default light blue - Cyclos3.6 new style
+*/
+
+
+body {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+body, td, th {
+	color: rgba(30, 67, 36, 0.99);
+	font-family:    font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:		14px;
+}
+.tdContentTable {
+    padding: 8px;
+    background-color: #fff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+}
+body.login {
+	text-align: center;
+	background: rgb(255, 255, 255) url(login-bg.png) no-repeat center 50px;
+	background-size: 100%;
+}
+.label {
+    text-align: right;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+}
+.tdContents {
+    padding: 0px;
+    text-align: center;
+    background: url(gnfjpg) no-repeat right 0px;
+    height: 6°°;
+}
+
+.loginTable, .loginFormTable {
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+
+.loginTable {
+	width: 750px;
+	margin-top: 62px;
+}
+
+.loginFormContainer {
+	vertical-align: top;
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	left: -90px;
+	top: -20px;
+}
+
+.loginFormContainer {
+	width: 50%;
+	background-color: rgb(235, 253, 231);
+}
+
+.loginRegistration {
+	width: 300px;
+	background-color: rgb(31, 68, 37);
+	vertical-align: top;
+	border: 1px solid #EBFDE7;
+	padding: 10px;
+	text-align: center;
+	color: #F7F7F7;
+	position: relative;
+	float: left;
+	top: 175px;
+	left: -450px;
+	box-shadow: 0px 0px 10px 0px #1F4425;
+	height: 90px;
+}
+
+.loginRegistrationDiv {
+	height: 100px;
+	position: relative;
+}
+.loginRegistrationDiv input {
+	position: absolute;
+	right: 0px;
+	top: 50px;
+}
+
+.loginTitle {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.loginText {
+	text-align: justify;
+	padding-bottom: 15px;
+	display: none
+}
+
+.loginSeparator {
+	width: 0px;
+}
+
+.fieldDecoration {
+	color: red !important;
+	background-color: #FBFBFB;
+}
+
+.loginFormDecoration {
+	background-image: url(login_form_icon.gif) !important;
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+}
+
+.button:hover {
+	background-color: #D5E4E7;
+	border: 1px solid #ccc;
+	
+}
+
+.button {
+	background-color: #fff;
+	text-shadow: 			1px 1px 2px #faf4e2;
+	color:					#1e4426;
+	font-family:    		Verdana, Geneva, sans-serif;
+	font-size:				15pt;
+	font-weight: bold;
+	cursor:					pointer;
+	padding: 2px;
+	position: relative;
+	float: right;
+	border: 1px solid #ccc;
+}
+
+input {
+	border: #ddd 1px solid;
+}
+
+.InputBoxDisabled {
+	background-color: #f1f1f1;
+}
+
+.bottomText {
+	text-shadow: 2px 2px 2px #1F4425;
+	font-weight:bold;
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	float: left;
+	top: -34px;
+	left: -80px;
+	border: 1px solid #FFFFFF;
+	padding: 5px;
+	background-color: #59a839;
+	box-shadow: 0px 0px 5px 1px #1F4425;
+	display: none;
+}
+
+.topContainerBorder {
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding: 9px 9px 12px 9px;
+    background-color: rgba(255, 255, 255, 0);
+    min-height: 500px;
+    overflow: hidden;
+}
+
